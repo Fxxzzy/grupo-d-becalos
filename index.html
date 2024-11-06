@@ -1,13 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Escuela de Enfermería San Vi</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div>
-        <p>Hola Mundo</p>
-    </div>
+
+    <!-- Header y Navbar -->
+    <header class="bg-primary text-white text-center py-4">
+        <h1>Escuela de Enfermería San Vi</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pedido">Pedido</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#soporte">Soporte</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sección de Temario de Enfermería -->
+    <main class="container my-5">
+        <section id="temario" class="text-center">
+            <h2 class="text-primary mb-4">Temario de Enfermería</h2>
+            <div class="row">
+                <!-- Card 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow rounded-20">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Anatomía y Fisiología</h5>
+                            <p class="card-text">Estudio del cuerpo humano, su estructura y funciones principales.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow rounded-20">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Farmacología</h5>
+                            <p class="card-text">Principios básicos de medicamentos y su administración segura.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow rounded-20">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Enfermería Médico-Quirúrgica</h5>
+                            <p class="card-text">Atención al paciente antes, durante y después de una cirugía.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow rounded-20">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Enfermería Pediátrica</h5>
+                            <p class="card-text">Cuidado especializado para bebés, niños y adolescentes.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 5 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow rounded-20">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Salud Mental y Psiquiatría</h5>
+                            <p class="card-text">Principios de atención para pacientes con necesidades de salud mental.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 6 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow rounded-20">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Ética y Bioética</h5>
+                            <p class="card-text">Estudio de los principios éticos en la práctica de enfermería.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Bootstrap JS, jQuery, and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
